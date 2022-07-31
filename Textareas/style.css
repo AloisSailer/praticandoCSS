@@ -1,0 +1,20 @@
+body {
+  background: #3d3d3d;
+}
+
+textarea {
+  background: #141414;
+  color: #e5e5e5;
+  padding: 1rem;
+  border: 1px solid #9acd32;
+  border-radius: .3rem;
+
+  caret-color: #9acd32;
+  resize: vertical;
+  min-height: 1rem;
+}
+
+textarea::selection {
+  background: #9acd32;
+  color: #141414;
+}
