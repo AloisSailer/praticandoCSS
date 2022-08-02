@@ -41,7 +41,7 @@ main::before {
   border-radius: 50% /100% 100% 0 0;
 }
 
-div {
+.lateral {
   position: relative;
   width: 280px;
   height: 500px;
@@ -49,29 +49,29 @@ div {
   display: flex;
 }
 
-div, div::before, div::after, span {
+.lateral, .lateral::before, .lateral::after, span {
   height: 500px;
 }
 
-div::before, div::after, span {
+.lateral::before, .lateral::after, span {
   width: 100px;
 }
 
-div::before, div::after {
+.lateral::before, .lateral::after {
   content: "";
   position: absolute;
   background: var(--red-dark);
 }
 
-div::before {
+.lateral::before {
   left: 0;
 }
 
-div::after {
+.lateral::after {
   right: 0;
 }
 
-span {
+.transversal {
   background: var(--red);
   position: relative;
   z-index: 2;
